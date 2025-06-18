@@ -1,27 +1,33 @@
 {
-  "name": "procesar_doc",
-  "version": "0.1.0",
+  "name": "procesador-documentos-ai",
+  "version": "1.0.0",
   "private": true,
+  "description": "Suite completa de procesamiento de documentos con IA",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "setup": "node scripts/setup-check.js"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "mammoth": "^1.6.0"
   },
   "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8",
+    "autoprefixer": "^10.0.1",
     "typescript": "^5",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
-  }
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0"
+  },
+  "keywords": ["text-to-speech", "pdf-processing", "gemini-ai", "google-cloud", "translation", "document-processing"],
+  "author": "Tu Nombre",
+  "license": "MIT"
 }
